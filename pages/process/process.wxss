@@ -1,0 +1,9 @@
+/* pages/process/process.wxss */
+.imagesize{
+ display:flex;                    
+ justify-content: center;         
+}
+.imagesize image { 
+  width:672rpx;
+  height:672rpx;
+  }

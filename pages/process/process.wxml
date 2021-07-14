@@ -1,0 +1,8 @@
+<!--pages/process/process.wxml-->
+<text>图片的大小：{{imgwidth}}px*{{imgheight}}px</text> 
+<!-- <view class='imagesize'>
+  <image src="{{img}}"  class='in-image'></image>
+</view> -->
+<canvas style="width:{{imgwidth}}rpx; height:{{imgheight}}rpx;" canvas-id='canvas'></canvas>
+<!-- <canvas style="width:100%; height:40%;" canvas-id='canvas'></canvas> -->
+
